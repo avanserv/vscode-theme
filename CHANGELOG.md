@@ -20,3 +20,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - JavaScript
     - Markdown / RST
     - Toml / Yaml / INI
+
+## [1.1.1] - 2025-05-11
+
+### Modified
+
+- Add screenshots to README.md
