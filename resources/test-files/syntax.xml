@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element -->
+<root>
+    <!-- Comment -->
+    <element attribute="value">Text content</element>
+
+    <!-- Nested elements -->
+    <parent>
+        <child>Child content</child>
+        <child attribute="example">Another child</child>
+    </parent>
+
+    <!-- Empty element -->
+    <emptyElement />
+
+    <!-- CDATA section -->
+    <cdataExample><![CDATA[This is some <CDATA> content]]></cdataExample>
+
+    <!-- Processing instruction -->
+    <?processingInstruction example="value"?>
+
+    <!-- Namespace example -->
+    <namespaceExample xmlns:ns="http://example.com/ns">
+        <ns:child>Namespaced content</ns:child>
+    </namespaceExample>
+
+    <!-- Entity reference -->
+    <entityExample>&lt; &amp; &gt;</entityExample>
+
+    <!-- Doctype declaration -->
+    <!DOCTYPE note [
+        <!ELEMENT note (to,from,heading,body)>
+        <!ELEMENT to (#PCDATA)>
+        <!ELEMENT from (#PCDATA)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT body (#PCDATA)>
+    ]>
+    <note>
+        <to>Tove</to>
+        <from>Jani</from>
+        <heading>Reminder</heading>
+        <body>Don't forget me this weekend!</body>
+    </note>
+</root>

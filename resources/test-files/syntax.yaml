@@ -1,0 +1,73 @@
+# Basic key-value pairs
+name: John Doe
+age: 30
+
+# Nested objects
+address:
+  street: 123 Main St
+  city: Anytown
+  zip: 12345
+
+# Lists
+hobbies:
+  - reading
+  - hiking
+  - coding
+
+# Mixed types in lists
+mixed_list:
+  - name: Alice
+    age: 25
+  - name: Bob
+    age: 28
+
+# Multiline strings
+description: >
+  This is a multiline string.
+  It continues on the next line.
+
+# Literal block scalar
+notes: |
+  This is a literal block scalar.
+  It preserves line breaks.
+
+# Boolean values
+is_active: true
+is_admin: false
+
+# Null value
+middle_name: null
+
+# Integers and floats
+count: 42
+price: 19.99
+
+# Aliases and anchors
+defaults: &defaults
+  theme: light
+  notifications: true
+
+user_settings:
+  <<: *defaults
+  notifications: false
+
+# Comments
+# This is a comment in YAML
+
+# Timestamps
+created_at: 2023-10-01T12:00:00Z
+
+# Custom tags
+custom_tag: !custom "This is a custom tag"
+
+# Complex keys
+? [first, last]
+: [John, Doe]
+
+# YAML document separator
+---
+document1:
+  key: value
+---
+document2:
+  key: another_value

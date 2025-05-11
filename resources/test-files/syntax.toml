@@ -1,0 +1,62 @@
+# This is a TOML document demonstrating all features.
+
+# Key-Value Pairs
+title = "TOML Example"
+
+# Strings
+string_basic = "This is a basic string"
+string_multiline = """
+This is a
+multiline string.
+"""
+
+# Integers
+integer_positive = 42
+integer_negative = -42
+
+# Floats
+float_positive = 3.14
+float_negative = -3.14
+float_exponent = 1e6
+
+# Booleans
+bool_true = true
+bool_false = false
+
+# Dates and Times
+datetime = 2023-10-05T14:48:00Z
+local_date = 2023-10-05
+local_time = 14:48:00
+
+# Arrays
+array_numbers = [1, 2, 3, 4, 5]
+array_strings = ["red", "green", "blue"]
+array_mixed = [1, "two", 3.0, true]
+
+# Tables
+[table]
+key1 = "value1"
+key2 = "value2"
+
+# Nested Tables
+[table.nested]
+key = "nested value"
+
+# Inline Tables
+inline_table = { name = "John", age = 30 }
+
+# Arrays of Tables
+[[products]]
+name = "Laptop"
+price = 999.99
+
+[[products]]
+name = "Smartphone"
+price = 499.99
+
+[[products]]
+name = "Tablet"
+price = 299.99
+
+# Comments
+# This is a comment

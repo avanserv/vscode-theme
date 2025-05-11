@@ -1,0 +1,148 @@
+/* Basic Selectors */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Class and ID Selectors */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pseudo-classes */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Pseudo-elements */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Attribute Selectors */
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Transitions */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Variables */
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #ff5722;
+}
+
+.variable-example {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+/* Custom Properties */
+.custom-property {
+    --custom-size: 20px;
+    font-size: var(--custom-size);
+}
+
+/* Box Model */
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Positioning */
+.position-example {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* Z-index */
+.z-index-example {
+    position: absolute;
+    z-index: 10;
+}
+
+/* Backgrounds */
+.background-example {
+    background: linear-gradient(to right, red, yellow);
+}
+
+/* Clip Path */
+.clip-path-example {
+    clip-path: circle(50%);
+}
+
+/* Filters */
+.filter-example {
+    filter: blur(5px);
+}
+
+/* Shapes */
+.shape-example {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}

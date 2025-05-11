@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Features Example">
+    <title>HTML Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, section, footer {
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.5;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Document is ready!');
+        });
+        function showAlert() {
+            alert('Button clicked!');
+        }
+    </script>
+</head>
+<body>
+    <!-- Headings -->
+    <header>
+        <h1>Main Heading</h1>
+        <h2>Subheading</h2>
+    </header>
+
+    <!-- Paragraphs and Text Formatting -->
+    <section>
+        <p>This is a <strong>bold</strong> and <em>italic</em> text example.</p>
+        <p>Here is a <a href="https://example.com" target="_blank">link</a>.</p>
+    </section>
+
+    <!-- Lists -->
+    <section>
+        <h3>Lists</h3>
+        <ul>
+            <li>Unordered item 1</li>
+            <li>Unordered item 2</li>
+        </ul>
+        <ol>
+            <li>Ordered item 1</li>
+            <li>Ordered item 2</li>
+        </ol>
+    </section>
+
+    <!-- Tables -->
+    <section>
+        <h3>Table</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Forms -->
+    <section>
+        <h3>Form</h3>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Multimedia -->
+    <section>
+        <h3>Multimedia</h3>
+        <img src="image.jpg" alt="Example Image">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Semantic Elements -->
+    <footer>
+        <p>&copy; 2023 Example Footer</p>
+    </footer>
+</body>
+</html>

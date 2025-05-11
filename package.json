@@ -1,0 +1,47 @@
+{
+  "name": "avanserv-theme",
+  "displayName": "Avanserv Theme",
+  "description": "Custom color theme for the Avanserv organization.",
+  "publisher": "avanserv",
+  "contributors": [
+    {
+      "name": "Antoine Van Serveyt",
+      "email": "avs@avanserv.com",
+      "url": "https://avanserv.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avanserv/vscode-theme"
+  },
+  "galleryBanner": {
+    "color": "#191f30",
+    "theme": "dark"
+  },
+  "icon": "resources/avanserv.png",
+  "license": "AGPL-3.0-only",
+  "version": "1.1.0",
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "avanserv",
+    "customize",
+    "syntax highlighting"
+  ],
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Avanserv",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AvanservDark.json"
+      }
+    ]
+  }
+}

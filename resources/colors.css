@@ -1,0 +1,40 @@
+grayscale {
+    color: #080b14; /* shadow */
+    color: #161a27;
+    color: #191f30; /* background darker */
+    color: #1f2536; /* background dark */
+    color: #2a2f42;
+    color: #353b4d; /* background light */
+    color: #63697d; /* disabled & border */
+    color: #9da3b9;
+    color: #c0c6dc; /* text */
+    color: #e0ebee;
+}
+
+/* transparency: 88 / 66 / 44 / 22 */
+
+colors {
+    color: #626e53;
+    color: #8fa872;
+    color: #c1ccb4;
+
+    color: #8a4444;
+    color: #c96b6b;
+    color: #ddaaaa;
+
+    color: #b38f4d;
+    color: #ceba95;
+    color: #d4c9b4;
+
+    color: #609299;
+    color: #89c6ce;
+    color: #b0cdd1;
+
+    color: #8f4e65;
+    color: #c76f90;
+    color: #cea7b5;
+
+    color: #6f597a;
+    color: #ab85bd;
+    color: #d3bcdd;
+}
